@@ -1,0 +1,201 @@
+[
+  {
+    "id": "1",
+    "name": "Acme Solutions",
+    "cat": "Tech",
+    "desc": "Premium coworking spaces and office solutions for modern businesses. Flexible plans available.",
+    "owner": "acme@example.com",
+    "status": "approved",
+    "tier": "premium",
+    "imgs": [
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80",
+      "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=600&q=80",
+      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=600&q=80",
+      "https://images.unsplash.com/photo-1497366412874-3415097a27e7?w=600&q=80"
+    ],
+    "phone": "+1 555-0101",
+    "email": "contact@acme.com",
+    "website": "https://acme.com",
+    "instagram": "acmesolutions",
+    "facebook": "acmesolutions",
+    "date": "2024-01-01"
+  },
+  {
+    "id": "2",
+    "name": "Global Eats",
+    "cat": "Food",
+    "desc": "Authentic global cuisine bringing flavours from around the world. Catering & dine-in available.",
+    "owner": "food@example.com",
+    "status": "approved",
+    "tier": "premium",
+    "imgs": [
+      "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80",
+      "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600&q=80",
+      "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=600&q=80",
+      "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=600&q=80"
+    ],
+    "phone": "+1 555-0102",
+    "email": "hello@globaleats.com",
+    "website": "https://globaleats.com",
+    "instagram": "globaleatskitchen",
+    "facebook": "",
+    "date": "2024-01-02"
+  },
+  {
+    "id": "3",
+    "name": "Local Café",
+    "cat": "Café",
+    "desc": "Cozy neighbourhood café serving artisan coffee and fresh pastries every morning.",
+    "owner": "cafe@example.com",
+    "status": "approved",
+    "tier": "free",
+    "imgs": [
+      "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=400&q=80",
+      "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&q=80"
+    ],
+    "phone": "+1 555-0103",
+    "email": "hi@localcafe.com",
+    "website": "",
+    "instagram": "localcafe_daily",
+    "facebook": "localcafe",
+    "date": "2024-01-03",
+    "shopType": "physical",
+    "location": "Westlands, Nairobi",
+    "directions": "Next to Sarit, Shop No. 4",
+    "operatingHours": "9AM - 5PM",
+    "deliveryAreas": "",
+    "deliveryInfo": "",
+    "orderMethods": ""
+  },
+  {
+    "id": "4",
+    "name": "Repair Shop",
+    "cat": "Repair",
+    "desc": "Expert repairs for electronics, appliances and vehicles. Fast turnaround guaranteed.",
+    "owner": "repair@example.com",
+    "status": "approved",
+    "tier": "free",
+    "imgs": [
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80",
+      "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=400&q=80"
+    ],
+    "phone": "+1 555-0104",
+    "email": "fix@repairshop.com",
+    "website": "https://repairshop.com",
+    "instagram": "",
+    "facebook": "repairshopofficial",
+    "date": "2024-01-04"
+  },
+  {
+    "id": "5",
+    "name": "Freelance Designer",
+    "cat": "Design",
+    "desc": "Creative branding, UI/UX design and print media for startups and established brands.",
+    "owner": "designer@example.com",
+    "status": "approved",
+    "tier": "free",
+    "imgs": [
+      "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&q=80",
+      "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=400&q=80"
+    ],
+    "phone": "+1 555-0105",
+    "email": "hello@designer.com",
+    "website": "https://mydesignportfolio.com",
+    "instagram": "designsbyme_",
+    "facebook": "",
+    "date": "2024-01-05"
+  },
+  {
+    "id": "6",
+    "name": "Business Soarier",
+    "cat": "Retail",
+    "desc": "Business consulting and growth strategy for SMEs looking to scale rapidly.",
+    "owner": "biz@example.com",
+    "status": "approved",
+    "tier": "premium",
+    "imgs": [
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&q=80",
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&q=80"
+    ],
+    "phone": "+1 555-0106",
+    "email": "grow@bizsoar.com",
+    "website": "https://bizsoar.com",
+    "instagram": "",
+    "facebook": "",
+    "date": "2024-01-06"
+  },
+  {
+    "id": "7",
+    "name": "Health Hub",
+    "cat": "Health",
+    "desc": "Holistic wellness centre offering yoga, nutrition coaching and mental wellness programs.",
+    "owner": "health@example.com",
+    "status": "approved",
+    "tier": "free",
+    "imgs": [
+      "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&q=80",
+      "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&q=80"
+    ],
+    "phone": "+1 555-0107",
+    "email": "wellness@healthhub.com",
+    "website": "https://healthhub.com",
+    "instagram": "healthhub_wellness",
+    "facebook": "healthhubwellness",
+    "date": "2024-01-07"
+  },
+  {
+    "id": "8",
+    "name": "Workshop Pro",
+    "cat": "Other",
+    "desc": "Professional woodworking and custom furniture crafted with precision and care.",
+    "owner": "workshop@example.com",
+    "status": "approved",
+    "tier": "free",
+    "imgs": [
+      "https://images.unsplash.com/photo-1504148455328-c376907d081c?w=400&q=80",
+      "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?w=400&q=80"
+    ],
+    "phone": "+1 555-0108",
+    "email": "craft@workshoppro.com",
+    "website": "",
+    "instagram": "workshoppro_craft",
+    "facebook": "workshoppro",
+    "date": "2024-01-08"
+  },
+  {
+    "id": "9",
+    "name": "Bake Street",
+    "cat": "Café",
+    "desc": "Artisan bakery specialising in sourdough breads, pastries and custom celebration cakes.",
+    "owner": "bake@example.com",
+    "status": "pending",
+    "tier": "free",
+    "imgs": [
+      "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&q=80"
+    ],
+    "phone": "+1 555-0109",
+    "email": "hello@bakestreet.com",
+    "website": "",
+    "instagram": "bakestreet_artisan",
+    "facebook": "",
+    "date": "2024-01-09"
+  },
+  {
+    "id": "10",
+    "name": "TechFix Pro",
+    "cat": "Repair",
+    "desc": "Same-day smartphone and laptop repairs by certified technicians.",
+    "owner": "techfix@example.com",
+    "status": "rejected",
+    "tier": "premium",
+    "imgs": [
+      "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=400&q=80"
+    ],
+    "phone": "+1 555-0110",
+    "email": "fix@techfixpro.com",
+    "website": "https://techfixpro.com",
+    "instagram": "techfixpro",
+    "facebook": "",
+    "date": "2024-01-10"
+  }
+]

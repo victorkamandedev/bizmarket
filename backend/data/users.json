@@ -1,0 +1,30 @@
+[
+  {
+    "id": "u1",
+    "name": "Admin",
+    "email": "admin@marketplace.com",
+    "password": "$2a$10$D9d6bL8QSfzvHocmw5RtmuOIoTo.XmZwLJV/VDAPUShd3uI/FgGda",
+    "role": "admin"
+  },
+  {
+    "id": "u2",
+    "name": "Acme Owner",
+    "email": "acme@example.com",
+    "password": "$2a$10$VIfNCOY693VYDr5xniFf5.CBU7aKcSR9vlSHns6jAkDUJ54HBOIzi",
+    "role": "user"
+  },
+  {
+    "id": "u3",
+    "name": "Global Eats Owner",
+    "email": "food@example.com",
+    "password": "$2a$10$mQ9E4yN3M35nceOZ3CPhYu7jrn/H5lbHUrgWXj/ad6TNZHQU.5Dbu",
+    "role": "user"
+  },
+  {
+    "id": "u4",
+    "name": "Café Owner",
+    "email": "cafe@example.com",
+    "password": "$2a$10$jr0102PPxkzYX6Ak7fSq6eNnc86C2hNN4rvdFMN2iDYCaxKdDV4IS",
+    "role": "user"
+  }
+]

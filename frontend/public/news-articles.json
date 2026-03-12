@@ -1,0 +1,42 @@
+
+[
+  {
+    "id": "1",
+    "title": "Youth Entrepreneurship on the Rise in Kenya",
+    "slug": "youth-entrepreneurship-kenya-2026",
+    "date": "2026-02-15",
+    "author": "Jane Doe",
+    "category": "Trends",
+    "summary": "Recent studies show a 45% increase in youth-owned businesses across major cities...",
+    "content": "Full article content here. Youth entrepreneurship in Kenya has seen unprecedented growth...",
+    "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&q=80",
+    "featured": true,
+    "tags": ["entrepreneurship", "youth", "kenya", "growth"]
+  },
+  {
+    "id": "2",
+    "title": "New Funding Opportunities for Young Entrepreneurs",
+    "slug": "funding-opportunities-2026",
+    "date": "2026-02-10",
+    "author": "John Smith",
+    "category": "Funding",
+    "summary": "Government announces KES 500M fund dedicated to supporting youth startups...",
+    "content": "The government has announced a groundbreaking initiative...",
+    "image": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&q=80",
+    "featured": false,
+    "tags": ["funding", "government", "startups"]
+  },
+  {
+    "id": "3",
+    "title": "Success Story: From Market Stall to E-commerce Empire",
+    "slug": "success-story-ecommerce-empire",
+    "date": "2026-02-05",
+    "author": "Mary Johnson",
+    "category": "Success Stories",
+    "summary": "23-year-old entrepreneur shares journey from humble beginnings to six-figure business...",
+    "content": "Meet Sarah, a 23-year-old entrepreneur who started with just...",
+    "image": "https://images.unsplash.com/photo-1556740758-90de374c12ad?w=800&q=80",
+    "featured": true,
+    "tags": ["success", "ecommerce", "inspiration"]
+  }
+]
