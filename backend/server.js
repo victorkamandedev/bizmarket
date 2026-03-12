@@ -31,7 +31,30 @@ app.use('/api/users',      userRoutes);
 app.use('/api/news',       newsRoutes);
 
 // Health check
-app.get('/api/health', (_req, res) => res.json({ status: 'ok', time: new Date() }));
+app.get('/api/health', (_req, res) => {
+  const fs = require('fs');
+  const filesExist = {
+    usersJson: fs.existsSync('./data/users.json'),
+    businessesJson: fs.existsSync('./data/businesses.json'),
+    newsJson: fs.existsSync('./data/news.json'),
+  };
+  
+  res.json({ 
+    status: 'ok', 
+    time: new Date(),
+    env: process.env.NODE_ENV || 'development',
+    files: filesExist
+  });
+});
+
+// Debug endpoint - check what CORS sees
+app.get('/api/debug', (_req, res) => {
+  res.json({
+    FRONTEND_URL: process.env.FRONTEND_URL || 'NOT SET',
+    CORS_ORIGIN: process.env.FRONTEND_URL || 'http://localhost:5173',
+    all_env_keys: Object.keys(process.env).filter(k => !k.includes('SECRET') && !k.includes('KEY'))
+  });
+});
 
 // 404 catch-all
 app.use((_req, res) => res.status(404).json({ error: 'Route not found' }));
